@@ -3,12 +3,16 @@ import Home from "./pages/home/Home";
 import Users from "./pages/users/Users";
 import Login from "./pages/login/Login";
 import Products from "./pages/products/Products";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   const Layout = () => {
     return (
       <div className="main">
+        <Navbar />
         <Outlet />
+        <Footer />
       </div>
     );
   };
