@@ -1,11 +1,8 @@
-import ExpenseList from "./components/expense-tracker/components/ExpenseList";
 
 const App = () => {
   return (
-    <>
-      <ExpenseList />
-    </>
-  );
-};
+    <div>App</div>
+  )
+}
 
-export default App;
+export default App
